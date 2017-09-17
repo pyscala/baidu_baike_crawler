@@ -1,0 +1,17 @@
+
+功能：从一个入口url开始，爬取百度百科的词条名称，词条URL，词条解释，爬取的数量在SpiderMan.py中可以设置，默认爬取100条。
+
+
+用到的包：
+pymongo
+request
+beautifulsoup
+re
+time
+
+
+数据库：
+mongodb
+
+
+说明：没有使用代理IP，这是一个需要改进的地方。没有使用redis做url存储，数量过大可能撑不住。
